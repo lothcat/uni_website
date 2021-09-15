@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../imgs/background_img_4.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header, footer {
+    background-color: #f0b043;
+    padding: 15px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main {
+    width: 50%;
+    border: 2px solid #329296;
+    border-radius: 15px;
+    background-color: #91267f;
+    opacity: 0.85;
+    text-align: center;
+    flex-basis: 50%;
+    align-self: center;
+}
+
+main h2 {
+    font-size: 1.75em;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+li a:link {
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+li a:visited {
+    color: #83fffe;
+}
+
+li a:hover {
+    color: #ffff85;
+}
+
+li p {
+margin-top: 5px;
+    margin-bottom: 10px;
+}
