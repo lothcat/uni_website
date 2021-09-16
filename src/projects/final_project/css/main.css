@@ -1,0 +1,26 @@
+body {
+    background-color: #05a3ec;
+    color: #eef2f8;
+    font-family: 'Staatliches', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: left;
+    padding: 25px;
+}
+
+.barDecorative {
+    height: 15px;
+    background-color: #eef2f8;
+    margin: 10px 0;
+}
+
+button {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: #cee7f1;
+}

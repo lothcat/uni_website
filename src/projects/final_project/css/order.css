@@ -1,0 +1,39 @@
+.hidden {
+    display: none;
+}
+
+.error {
+    color: #c60b4c;
+    margin-left: 5px;
+}
+
+.content {
+    padding: 0 25px;
+}
+
+.orderImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+button {
+    margin: 10px 0;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+#cost {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.linePrice {
+    color: #555c60;
+}

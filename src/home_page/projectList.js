@@ -3,7 +3,7 @@
 const projects = [{
     name: "Haus Aus Mokka Online Ordering",
     lastModified: "6-16-2021",
-    link: "http://sfernald.greenriverdev.com/117/final_project/"
+    link: "../projects/final_project/html"
 },
 {
     name:"Who is Bjarke Ingels",
@@ -72,7 +72,7 @@ projects.forEach(project => {
     const listItem = document.createElement("li");
 
     const title = document.createElement("a");
-    title.href = "file://C:\\Users\\saman\\Documents\\Front End Dev 106\\about_me";
+    title.href = project.link;
     title.innerHTML = project.name;
 
     const date = document.createElement("p");

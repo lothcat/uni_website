@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iced Mokka</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/order.css">
+</head>
+<body>
+    <h1>Build Your Iced Mokka</h1>
+    <div class="barDecorative"></div>
+
+    <div class="content">
+        <!--Button Home-->
+        <button type="button" id="home">Home</button>
+
+        <!--Drop Down Menu Size-->
+        <form id="mokka-form">
+            <!--Checkboxes Vegan || Allergy-->
+            <input type="checkbox" id="vegan" name="vegan" value="vegan">
+            <label for="vegan">Vegan?</label><br>
+            <input type="checkbox" id="allergy" name="allergy" value="allergy">
+            <label for="allergy">Nut allergy?</label><br>
+
+            <br>
+
+            <label for="size">Size:</label>
+            <select name="size" id="size">
+                <option value="none"> </option>
+                <option value="small" id="small">12oz</option>
+                <option value="medium" id="medium">16oz</option>
+                <option value="large" id="large">24oz</option>
+            </select>
+            <span id="errorSize" class="hidden">*required</span><br>
+
+            <!--Radio Button Ice Level-->
+            <p>Ice Level:<span id="errorIce" class="hidden">*required</span></p>
+            <input type="radio" id="standard" name="ice" value="standard">
+            <label for="standard">Standard</label><br>
+            <input type="radio" id="seventy" name="ice" value="seventy">
+            <label for="seventy">70%</label><br>
+            <input type="radio" id="fifty" name="ice" value="fifty">
+            <label for="fifty">50%</label><br>
+            <input type="radio" id="twenty" name="ice" value="twenty">
+            <label for="twenty">20%</label><br>
+            <br>
+
+            <!--Drop Down Menu Milk-->
+            <label for="milk">Milk:</label>
+            <select name="milk" id="milk">
+                <option value="none"> </option>
+                <option value="oat">Oat</option>
+                <option value="almond">Almond</option>
+                <option value="hemp">Hemp</option>
+                <option value="coconut">Coconut</option>
+                <option value="soy">Soy</option>
+                <option id="whole" value="whole">Whole (+$1.00)</option>
+                <option id="two" value="two">2% (+$1.00)</option>
+            </select>
+            <span id="errorMilk" class="hidden">*required</span><br>
+
+            <!--Radio Button Chocolate-->
+            <p>Chocolate Choice:<span id="errorChocolate" class="hidden">*required</span></p>
+            <input type="radio" id="dark" name="chocolate" value="dark">
+            <label for="dark">Fair Trade Ghanaian 85% Dark Chocolate</label><br>
+            <input type="radio" id="seaSalt" name="chocolate" value="seaSalt">
+            <label for="seaSalt">Vegan Gold Coast Sea Salt & Caramel Mylk Chocolate</label><br>
+            <input type="radio" id="mint" name="chocolate" value="mint">
+            <label for="mint">Organic Lake District Mint & Lavender Dark Chocolate</label><br>
+            <input type="radio" id="nutty" name="chocolate" value="nutty">
+            <label for="nutty">Hawaiian Macadamia and Coconut Milk Chocolate</label><br>
+            <input type="radio" id="mexican" name="chocolate" value="mexican">
+            <label for="mexican">Mexican Mokka 70% Dark Chocolate</label><br>
+            <br>
+
+            <!--Checkboxes Whip + Cinnamon-->
+            <input type="checkbox" id="whip" name="whip" value="whip">
+            <label for="whip">Add Whip Cream</label>
+            <label class="linePrice">($.35)</label><br>
+            <input type="checkbox" id="cinnamon" name="cinnamon" value="cinnamon">
+            <label for="cinnamon">Top with Cinnamon Powder</label><br>
+        </form>
+        <!--Total-->
+        <div id="cost">
+            Total: <span id="total"></span>
+        </div>
+
+        <div class="orderImage">
+            <!--Button Place Order-->
+            <button type="button" id="order">Place Order</button>
+            <img src="../img/iced_mocha.png" alt="Close-up of latte art" height="275px">
+        </div>
+    </div>
+
+    <script src="../js/order.js"></script>
+</body>
+</html>
