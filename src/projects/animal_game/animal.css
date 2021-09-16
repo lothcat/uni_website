@@ -1,8 +1,18 @@
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     background-color: #161616;
     color: white;
     text-align: center;
     font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 8px;
+    box-sizing: border-box;
 }
 
 .correctGuess {
@@ -30,18 +40,35 @@ img {
 }
 
 .grid {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
     grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 2px;
     grid-row-gap: 7px;
     justify-items: center;
     align-items: center;
     flex-grow: 1;
-    flex-shrink: 1;
+    overflow: hidden;
 }
 
-div {
+.img-wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+#targetAnimal, #guessResult {
     font-size: 2em;
     margin: 15px 0;
 }
@@ -53,6 +80,7 @@ button {
     background-color: black;
     color: white;
     border: 2px solid white;
+    align-self: center;
 }
 
 button:hover{

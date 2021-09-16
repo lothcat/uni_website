@@ -57,4 +57,4 @@ function configReplayGameButton(){
 
 const bigCats = ["cheetah", "leopard", "joe", "lion", "lynx", "ocelot", "tiger", "carole", "panther"];
 setUpGame(bigCats);
-configReplayGameButton();
+configReplayGameButton(); // TODO, fix duplicate event listeners being added
