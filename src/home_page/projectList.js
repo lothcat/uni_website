@@ -13,7 +13,7 @@ const projects = [{
 {
     name:"Big Cat Guessing Game",
     lastModified: "6-3-2021",
-    link:"/blah2.html"
+    link:"../projects/animal_game"
 },
 {
     name:"Tea Party To-do List",

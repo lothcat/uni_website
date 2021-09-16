@@ -1,0 +1,60 @@
+body {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.correctGuess {
+    color: #5a731e;
+}
+
+.incorrectGuess {
+    color: #fc5353;
+}
+
+img {
+    margin: 4px;
+}
+
+.clicked {
+    margin: 0;
+}
+
+.clicked-correct {
+    border: 4px solid #9fcc35;
+}
+
+.clicked-incorrect {
+    border: 4px solid #fc5353;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 7px;
+    justify-items: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+div {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+button {
+    font-size: 1.5em;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+button:hover{
+    background-color: #b06d3e;
+}
