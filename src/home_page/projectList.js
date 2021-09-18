@@ -3,7 +3,7 @@
 const projects = [{
     name: "Haus Aus Mokka Online Ordering",
     lastModified: "6-16-2021",
-    link: "../projects/final_project/html"
+    link: "../projects/final_project/html/index.html"
 },
 {
     name:"Who is Bjarke Ingels",
@@ -13,7 +13,7 @@ const projects = [{
 {
     name:"Big Cat Guessing Game",
     lastModified: "6-3-2021",
-    link:"../projects/animal_game"
+    link:"../projects/animal_game/index.html"
 },
 {
     name:"Tea Party To-do List",
@@ -58,7 +58,7 @@ const projects = [{
 {
     name:"About Me",
     lastModified: "1-14-2021",
-    link:"/blahblah.html"
+    link:"../projects/about_me/about_me.html"
 }
 ];
 
