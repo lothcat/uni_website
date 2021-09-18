@@ -1,0 +1,16 @@
+#myButton {
+    margin: 25px 0;
+    padding: 25px;
+    width: 250px;
+    font-size: 2em;
+    display: block;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 2em;
+}

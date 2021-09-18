@@ -1,0 +1,23 @@
+img {
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+.strikeThroughTxt {
+    text-decoration: line-through;
+}
+
+.highlighted > li:nth-child(odd) {
+    color: #8d6176;
+}
+
+#teaTray {
+    visibility: hidden;
+}
+
+body {
+    background-image: linear-gradient(to left, #a2778a 20%, #f8f8f1 60%);
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4em;
+
+}

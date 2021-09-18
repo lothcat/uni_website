@@ -1,0 +1,106 @@
+<!--
+  Contact List
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <title>Contacts</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="center-align">
+      Sam's Contacts
+    </h1>
+    <input type="text" id="filterInput" placeholder="Search names...">
+    <ul id="names" class="collection with-header">
+      <li class="collection-header">
+        <h5>B</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">The Blue Morpho</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Brock Sampson</a>
+      </li>
+      <li class="collection-header">
+        <h5>D</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Dean</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Dr Venture</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Dr Mrs the Monarch</a>
+      </li>
+      <li class="collection-header">
+        <h5>H</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Helper</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Hank</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Henchman 21</a>
+      </li>
+      <li class="collection-header">
+        <h5>O</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Orpheus</a>
+      </li>
+      <li class="collection-header">
+        <h5>S</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Sergeant Hatred</a>
+      </li>
+      <li class="collection-header">
+        <h5>T</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Triana</a>
+      </li>
+  </div>
+
+  <script>
+    // Get input element
+    let filterInput = document.getElementById("filterInput");
+    //add event listener
+    filterInput.addEventListener("keyup", filterNames)
+
+    function filterNames() {
+      //Get Value of input
+      let filterValue = document.getElementById("filterInput").value.toUpperCase();
+
+      // Get ul names
+      let ul = document.getElementById("names");
+
+      //Get Li's from <ul>
+      let li = ul.querySelectorAll("li.collection-item");
+
+      // Loop through collection-item li's
+      for (let i = 0; i < li.length; i++) {
+        let a = li[i].getElementsByTagName("a")[0]; //only want current length so put 0
+        // If matchs
+        if (a.innerHTML.toUpperCase().indexOf(filterValue) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>

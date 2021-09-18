@@ -1,0 +1,36 @@
+body {
+     color: white;
+     background-image: url("plaid_background.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 1000px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     margin-top: -10px;
+     margin-right: 100px;
+
+}
+
+main {
+     width: 50%;
+     background-color: #302d2d;
+     opacity: 0.95;
+     text-align: center;
+     flex-basis: 50%;
+     align-self: flex-end;
+     padding-top: 100px;
+     padding-left: 25px;
+     padding-right: 25px;
+}
+
+button {
+     margin-top: 25px;
+     padding: 10px;
+}
+
+div {
+     margin-top: 25px;
+     font-size: 1.5em;
+}

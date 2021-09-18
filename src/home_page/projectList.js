@@ -8,7 +8,7 @@ const projects = [{
 {
     name:"Who is Bjarke Ingels",
     lastModified: "1-22-2021",
-    link: "http://sfernald.greenriverdev.com/117/final_project/"
+    link: "../projects/instructional_website/history.html"
 },
 {
     name:"Big Cat Guessing Game",
@@ -18,42 +18,42 @@ const projects = [{
 {
     name:"Tea Party To-do List",
     lastModified: "5-26-2021",
-    link:"/blahblah.html"
+    link:"../projects/party_planner/index.html"
 },
 {
     name:"Grade Calculator",
     lastModified: "5-16-2021",
-    link:"/blahblah.html"
+    link:"../projects/grade_calculator/index.html"
 },
 {
     name:"Tic-Tac_Toe: Arrow Function Practice",
     lastModified: "5-10-2021",
-    link:"/blahblah.html"
+    link:"../projects/tic/index.html"
 },
 {
     name:"Flower Quiz",
     lastModified: "4-30-2021",
-    link:"/blahblah.html"
+    link:"../projects/quiz/index.html"
 },
 {
     name:"Pick A Pet Quiz",
     lastModified: "4-28-2021",
-    link:"/blahblah.html"
+    link:"../projects/pick_a_pet/index.html"
 },
 {
     name:"The Venture Brother's Simple Contact List",
     lastModified: "4-5-2021",
-    link:"/blahblah.html"
+    link:"../projects/FilterList/index.html"
 },
 {
     name:"Red Ball Pizza Home Page Mock-up",
     lastModified: "3-4-2021",
-    link:"/blahblah.html"
+    link:"../projects/red_ball_pizza/red_ball_pizza/red_ball.html"
 },
 {
     name:"Lakescape Lodge Home Page Mock-up",
     lastModified: "2-3-2021",
-    link:"/blahblah.html"
+    link:"../projects/lakescape_lodge_homework/lakescape_lodge/files/lake_home.html"
 },
 {
     name:"About Me",

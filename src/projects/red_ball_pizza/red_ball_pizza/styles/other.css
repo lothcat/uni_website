@@ -1,0 +1,110 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Samantha Fernald
+    Date: 2/24/2021
+    File: other.css
+ */
+
+body {
+    background-image: url("../images/parlor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+    width: 100%;
+}
+
+main {
+    background: #f4f4f4;
+    border-left: 3px solid #9A1417;
+    border-right: 3px solid #9A1417;
+}
+
+aside {
+    margin-top: 20px;
+}
+
+article {
+    padding: 10px;
+}
+
+.horizontal {
+    font-size: 1.4em;
+}
+
+.horizontal ul {
+    margin-left: 10px;
+}
+
+.horizontal li {
+    margin-top: 10px;
+}
+
+nav.vertical {
+    margin-top: 20px;
+}
+
+nav.vertical li {
+    margin: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(154, 20, 23));
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+nav.vertical li a {
+    color: #ffffff;
+}
+
+section#deals {
+   padding-bottom: 10px;
+}
+
+section#deals div{
+    border: 3px dashed #9A1417;
+    margin: 15px;
+}
+
+section#deals h1 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+section#deals div p:nth-child(2) {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+section#deals div:nth-of-type(odd) {
+    background: #fec2c6;
+}
+
+section#deals div:nth-of-type(even) {
+    background: #e7e7e7;
+}
+
+div p:nth-child(3) {
+    font-weight: bold;
+}
+
+section div p:last-of-type {
+    margin-right: 15px;
+}
+
+aside li {
+    padding: 10px 12px 10px 20px;
+    margin: 10px;
+    background-image: linear-gradient(to right, #c5c5c5, #d37178);
+    border: 2px solid #9A1417;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+aside h1 {
+    font-weight: bold;
+}
+
+
+

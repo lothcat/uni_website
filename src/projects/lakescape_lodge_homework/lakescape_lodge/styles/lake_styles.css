@@ -1,0 +1,164 @@
+﻿/*
+	Styles for the The Great Lakescape Lodge web page.
+	Author: Samantha Fernald
+	Date:   2/1/2021
+
+	Filename: lake_styles.css
+
+	Stylesheet for The Great Lakescape Lodge's Welcome page.
+
+	Hex Codes:
+	Green: #d4df79
+	Light Purple: #ecd3ff
+	Dark Purple: #845ead
+	Link Purple: #b25fdf
+	Violet quote: #6c5ab4
+	Rouge: #dc8f86
+	Y'orange: #dcc276
+	Grey: #6c6c6c
+	Grey Text: #625d63
+	Creme: #fffdf2
+	White text: #fcfdf2
+	Black text: #000000
+*/
+
+body {
+    background-color: #fffdf2;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    border-left: 20px solid #d4df79;
+    border-right: 20px solid #d4df79;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Josefin Slab', serif;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+nav {
+   background-color: #845ead;
+}
+
+nav li > a {
+    text-decoration: none;
+    color: #fcfdf2;
+    margin-top: 2.5px;
+    padding-bottom: 5px;
+}
+
+body > section#leftcol {
+    width: 74%;
+    margin-right: 0%;
+}
+
+section#leftcol h1 {
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+section#leftcol p {
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+aside {
+    background-color: #dc8f86;
+    padding-left: 15px;
+}
+
+aside ul {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+aside h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+aside ul {
+    list-style-type: square;
+}
+
+#leftcol > aside:last-of-type {
+    background-color: #dcc276;
+    margin-left: 10px;
+}
+
+#rightcol {
+    background-color: #ecd3ff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 375px;
+}
+
+body > section#rightcol {
+    width: 26%;
+    margin-right: 0%;
+}
+
+section#rightcol > h2 {
+    font-family: 'Josefin Slab', serif;
+    margin-bottom: 10px;
+}
+
+#rightcol a {
+    color: #625d63;
+    text-decoration: none;
+}
+
+#rightcol a:hover {
+    color: #2d2b2b;
+}
+
+#rightcol a:visited {
+    color: #30077a
+}
+
+#rightcol a:active {
+    color: #2D2B2B;
+}
+
+#rightcol ul {
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+#rightcol li {
+    list-style-type: none;
+}
+
+blockquote {
+    color:#6c5ab4;
+    quotes: '“' '”';
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+}
+
+blockquote::before {
+    content: open-quote;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+blockquote::after {
+    content: close-quote;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+footer {
+    background-color: #6c6c6c;
+    text-align: center;
+    color: #fcfdf2;
+}
